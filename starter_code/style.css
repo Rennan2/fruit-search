@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box ;
+}
+
+:focus {
+ outline: none;
+}
+
+body {
+  background: linear-gradient(#49eb17,#c8f02b);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input {
+  background:transparent;
+ color: black;
+ height: 25px;
+ width: 100%;
+
+  
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.search-container input,
+.search-container .suggestions {
+  background:transparent;
+}
+.search-container input {
+  
+
+
+
+}
+.search-container .suggestions {
+  width: 100%;
+}
+ 
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+ul.has-suggestions {
+  background: transparent;
+
+
+}
+
+  
+ul li {
+  cursor: pointer;
+
+  
+}
+ul li:hover {
+  background-color: blue;
+
+  
+}
+
+input{
+
+
+   
+}
